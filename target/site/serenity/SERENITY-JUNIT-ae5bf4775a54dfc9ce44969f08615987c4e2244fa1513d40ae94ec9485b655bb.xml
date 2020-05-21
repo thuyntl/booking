@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="booking.features.BookingRoom2Story" skipped="0" tests="1" time="11.91" timestamp="2020-05-20 11:47:13"><testcase classname="booking.features.BookingRoom2Story" name="Show input information for booking room"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+booking.actions.InputPlace.performAs(InputPlace.java:19)&#13;
+booking.tasks.BookRoom2.performAs(BookRoom2.java:21)&#13;
+booking.features.BookingRoom2Story.show_input_information_for_booking_room(BookingRoom2Story.java:51)&#13;
+</system-err></testcase></testsuite>

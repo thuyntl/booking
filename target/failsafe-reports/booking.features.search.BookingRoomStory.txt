@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: booking.features.search.BookingRoomStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.382 s - in booking.features.search.BookingRoomStory

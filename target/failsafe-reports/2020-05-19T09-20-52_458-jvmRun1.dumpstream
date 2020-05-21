@@ -1,0 +1,780 @@
+# Created at 2020-05-19T09:20:53.875
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-05-19T09:20:54.940
+Unexpected IOException with stream: [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+
+
+# Created at 2020-05-19T09:21:27.644
+Unexpected IOException with stream: [main] WARN net.thucydides.core.pages.Pages - Failed to instantiate page of type class booking.ui.BookingPage ({})
+
+
+# Created at 2020-05-19T09:21:27.648
+Unexpected IOException with stream: net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver
+
+# Created at 2020-05-19T09:21:27.648
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.652
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:144)
+
+# Created at 2020-05-19T09:21:27.656
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.656
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:132)
+
+# Created at 2020-05-19T09:21:27.660
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.660
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:102)
+
+# Created at 2020-05-19T09:21:27.664
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.664
+Unexpected IOException with stream: 	at net.serenitybdd.core.webdriver.RemoteDriver.of(RemoteDriver.java:13)
+
+# Created at 2020-05-19T09:21:27.664
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.668
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.appium.AppiumConfiguration.getTargetPlatform(AppiumConfiguration.java:57)
+
+# Created at 2020-05-19T09:21:27.668
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.672
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.ElementLocatorFactorySelector.platformFor(ElementLocatorFactorySelector.java:51)
+
+# Created at 2020-05-19T09:21:27.672
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.672
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.ElementLocatorFactorySelector.getLocatorFor(ElementLocatorFactorySelector.java:41)
+
+# Created at 2020-05-19T09:21:27.676
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.680
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.ElementLocatorFactorySelector.getLocatorFor(ElementLocatorFactorySelector.java:31)
+
+# Created at 2020-05-19T09:21:27.680
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.680
+Unexpected IOException with stream: 	at net.thucydides.core.annotations.locators.SmartElementProxyCreator.proxyElements(SmartElementProxyCreator.java:21)
+
+# Created at 2020-05-19T09:21:27.684
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.684
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.DefaultPageObjectInitialiser.apply(DefaultPageObjectInitialiser.java:19)
+
+# Created at 2020-05-19T09:21:27.688
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.688
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.PageObject.setDriver(PageObject.java:166)
+
+# Created at 2020-05-19T09:21:27.688
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.692
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.PageObject.setDriver(PageObject.java:170)
+
+# Created at 2020-05-19T09:21:27.692
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.696
+Unexpected IOException with stream: 	at net.thucydides.core.pages.Pages.createFromSimpleConstructor(Pages.java:237)
+
+# Created at 2020-05-19T09:21:27.696
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.696
+Unexpected IOException with stream: 	at net.thucydides.core.pages.Pages.getCurrentPageOfType(Pages.java:204)
+
+# Created at 2020-05-19T09:21:27.700
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.700
+Unexpected IOException with stream: 	at net.thucydides.core.pages.Pages.getPage(Pages.java:90)
+
+# Created at 2020-05-19T09:21:27.704
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.704
+Unexpected IOException with stream: 	at net.thucydides.core.steps.PageObjectDependencyInjector.instantiatePageObjectIfNotAssigned(PageObjectDependencyInjector.java:55)
+
+# Created at 2020-05-19T09:21:27.708
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.708
+Unexpected IOException with stream: 	at net.thucydides.core.steps.PageObjectDependencyInjector.injectDependenciesInto(PageObjectDependencyInjector.java:33)
+
+# Created at 2020-05-19T09:21:27.708
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.712
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepFactory.injectOtherDependenciesInto(StepFactory.java:166)
+
+# Created at 2020-05-19T09:21:27.712
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.716
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepFactory.instantiateNewStepLibraryFor(StepFactory.java:156)
+
+# Created at 2020-05-19T09:21:27.716
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.720
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepFactory.instantiateNewStepLibraryFor(StepFactory.java:139)
+
+# Created at 2020-05-19T09:21:27.720
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.724
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepFactory.getNewStepLibraryFor(StepFactory.java:86)
+
+# Created at 2020-05-19T09:21:27.724
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.724
+Unexpected IOException with stream: 	at net.thucydides.core.steps.IndividualInstancesByDefaultStepCreationStrategy.initiateStepsFor(IndividualInstancesByDefaultStepCreationStrategy.java:16)
+
+# Created at 2020-05-19T09:21:27.728
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.728
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepAnnotations.instantiateAnyUnitiaializedSteps(StepAnnotations.java:76)
+
+# Created at 2020-05-19T09:21:27.728
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.732
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepAnnotations.instanciateScenarioStepFields(StepAnnotations.java:60)
+
+# Created at 2020-05-19T09:21:27.736
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.736
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepAnnotations.injectScenarioStepsInto(StepAnnotations.java:42)
+
+# Created at 2020-05-19T09:21:27.736
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.740
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.injectScenarioStepsInto(SerenityRunner.java:636)
+
+# Created at 2020-05-19T09:21:27.740
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.740
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.methodInvoker(SerenityRunner.java:599)
+
+# Created at 2020-05-19T09:21:27.744
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.744
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:273)
+
+# Created at 2020-05-19T09:21:27.744
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.748
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+
+# Created at 2020-05-19T09:21:27.752
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.756
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:463)
+
+# Created at 2020-05-19T09:21:27.760
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.760
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:438)
+
+# Created at 2020-05-19T09:21:27.760
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.764
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:45)
+
+# Created at 2020-05-19T09:21:27.764
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.764
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created at 2020-05-19T09:21:27.768
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.768
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created at 2020-05-19T09:21:27.772
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.772
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created at 2020-05-19T09:21:27.772
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.776
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created at 2020-05-19T09:21:27.776
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.776
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created at 2020-05-19T09:21:27.780
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.780
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created at 2020-05-19T09:21:27.780
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.784
+Unexpected IOException with stream: 	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:242)
+
+# Created at 2020-05-19T09:21:27.788
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.788
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-05-19T09:21:27.788
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.792
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-05-19T09:21:27.792
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.792
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-05-19T09:21:27.792
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.796
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-05-19T09:21:27.796
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.800
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-05-19T09:21:27.800
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.804
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-05-19T09:21:27.804
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.804
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-05-19T09:21:27.808
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.808
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-05-19T09:21:27.808
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.812
+Unexpected IOException with stream: Caused by: net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G4L5P27', ip: '192.168.187.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+    at getResponseForW3CError (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G4L5P27', ip: '192.168.187.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteDriver). See below for more details.
+
+# Created at 2020-05-19T09:21:27.812
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.812
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:158)
+
+# Created at 2020-05-19T09:21:27.816
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.816
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:141)
+
+# Created at 2020-05-19T09:21:27.820
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.820
+Unexpected IOException with stream: 	... 46 more
+
+# Created at 2020-05-19T09:21:27.824
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.824
+Unexpected IOException with stream: Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G4L5P27', ip: '192.168.187.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+    at getResponseForW3CError (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G4L5P27', ip: '192.168.187.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteDriver
+
+# Created at 2020-05-19T09:21:27.828
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.828
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+
+# Created at 2020-05-19T09:21:27.832
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.836
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+
+# Created at 2020-05-19T09:21:27.836
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.840
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+
+# Created at 2020-05-19T09:21:27.840
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.844
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-05-19T09:21:27.844
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.860
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+
+# Created at 2020-05-19T09:21:27.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.864
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2020-05-19T09:21:27.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.864
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2020-05-19T09:21:27.872
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.872
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+
+# Created at 2020-05-19T09:21:27.872
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.872
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+
+# Created at 2020-05-19T09:21:27.872
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.876
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+
+# Created at 2020-05-19T09:21:27.876
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.876
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+
+# Created at 2020-05-19T09:21:27.876
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.876
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.880
+Unexpected IOException with stream: 	at net.serenitybdd.core.webdriver.driverproviders.AppiumDriverProvider.newDriverUsingExternalServer(AppiumDriverProvider.java:59)
+
+# Created at 2020-05-19T09:21:27.884
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.884
+Unexpected IOException with stream: 	at net.serenitybdd.core.webdriver.driverproviders.AppiumDriverProvider.newInstance(AppiumDriverProvider.java:47)
+
+# Created at 2020-05-19T09:21:27.884
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.884
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:169)
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:150)
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 	... 47 more
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: Caused by: java.lang.reflect.InvocationTargetException
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.888
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.892
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 	... 64 more
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G4L5P27', ip: '192.168.187.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+    at getResponseForW3CError (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:388:37)
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.896
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+
+# Created at 2020-05-19T09:21:27.900
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+
+# Created at 2020-05-19T09:21:27.904
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+
+# Created at 2020-05-19T09:21:27.908
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+
+# Created at 2020-05-19T09:21:27.912
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.916
+Unexpected IOException with stream: 	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+
+# Created at 2020-05-19T09:21:27.916
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.916
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+
+# Created at 2020-05-19T09:21:27.916
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.920
+Unexpected IOException with stream: 	... 69 more
+
+# Created at 2020-05-19T09:21:27.920
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-19T09:21:27.924
+Unexpected IOException: 8,1,booking.features.BookingRoom2Story,booking.features.BookingRoom2Story,null,The page object class booking.ui.BookingPage looks dodgy:\000AFailed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver),null,The page object class booking.ui.BookingPage looks dodgy:\000AFailed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver),BookingRoom2Story.booking.features.BookingRoom2Story The page object class booking.ui.BookingPage looks dodgy:\000AFailed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver),net.thucydides.core.pages.WrongPageError: \000AThe page object class booking.ui.BookingPage looks dodgy:\000AFailed to instantiate page (net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver)\000A
+
+
+# Created at 2020-05-19T09:21:27.932
+Unexpected IOException with stream: [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Booking room2 story
+
+
+# Created at 2020-05-19T09:21:29.143
+Unexpected IOException with stream: [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Initialisation
+-------------------------------------------------------------------
+
+
+# Created at 2020-05-19T09:21:29.143
+Unexpected IOException with stream: [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+
+
+# Created at 2020-05-19T09:21:29.275
+Unexpected IOException with stream: [pool-1-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: booking.features
+
+
+# Created at 2020-05-19T09:21:29.579
+Unexpected IOException with stream: [pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: booking.features
+
+
+# Created at 2020-05-19T09:21:30.727
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,booking.features.BookingRoom2Story,null,null,null
+
+
